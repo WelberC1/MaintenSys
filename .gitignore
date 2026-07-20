@@ -1,0 +1,61 @@
+# Claude Code
+.claude/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# EF Core
+**/Migrations/*.Designer.cs.bak
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+appsettings.*.local.json
+*.env
+.env
+**/secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files (fotos de aparelhos, etc.)
+**/wwwroot/uploads/

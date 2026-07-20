@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MaintenSys.API/MaintenSys.API.csproj" />
+  <Project Path="MaintenSys.Application/MaintenSys.Application.csproj" />
+  <Project Path="MaintenSys.Domain/MaintenSys.Domain.csproj" />
+  <Project Path="MaintenSys.Infra/MaintenSys.Infra.csproj" />
+</Solution>
